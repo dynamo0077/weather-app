@@ -1,0 +1,98 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: #f0f4f8; /* Light background color */
+  color: #333; /* Dark text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  min-width: 250px;
+}
+
+.App-header {
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  font-size: 24px;
+  color: #3b5a80;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #3b5a80;
+  border-radius: 5px;
+  background-color: #3b5a80;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2a426b;
+}
+
+h2 {
+  font-size: 32px;
+  color: #3b5a80;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  margin: 5px 0;
+}
+
+p:first-of-type {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 400px) {
+  .App {
+    width: 90%;
+    padding: 15px;
+  }
+
+  input, button {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
